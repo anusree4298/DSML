@@ -2,7 +2,7 @@ Assignment 1
     Basic cleaning is done for the provided Global Super store data.
     The steps done are visible in  Power Query.
 Assignment 2
-    A new table named "Calculated_Order_Table" was created and required columns are brought from 'orders' and 'people'.Some of the columns are calculated and others are generated. 
+    A new table named "Calculated_Order_Table" was created and required columns are generated from 'orders' and 'people'.
     New measures such as total profit, total sales and total quantity were created in the "orders" table.
     Two new colums indicating the 'customer name' and 'product id' were added to the "returns" table. 
     The prefix "Calc" shows calculated entities and "Msr" Shows new measures.
