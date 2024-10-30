@@ -6,3 +6,6 @@ Assignment 2
     New measures such as total profit, total sales and total quantity were created in the "orders" table.
     Two new colums indicating the 'customer name' and 'product id' were added to the "returns" table. 
     The prefix "Calc" shows calculated entities and "Msr" Shows new measures.
+Assignment 3
+    Different pages and visualizations are created. Needed columns and measures such as sales target,profit target etc. are created using DAX operations.
+    The PDF version of the report is attached along with the PowerBI file to provide clarity.
