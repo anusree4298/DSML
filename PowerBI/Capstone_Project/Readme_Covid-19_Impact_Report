@@ -1,4 +1,5 @@
 This PowerBI file consists of the Global Covid-19_Impact Report.
+The datasets were downloaded from https://www.kaggle.com/datasets/imdevskp/corona-virus-report.
 Basic Data Transformation was done.
 The necessary DAX measures and columns were created for providing insightful visualizations.
 The Major insights are provided within the report and the complete list is provided below.
