@@ -16,6 +16,7 @@ Assignment 2: DDL Constraints
           (4) Retrieve customer_name and Ordered_Item from the sales_orders table. 
           (5) Use the update command to change the name of the product for any row. 
           (6) Delete the sales_orders table from the database.
+
 Assignment 3: DML Commands
           -Create a table named Managers with fields : Manager_Id First_name Last_Name DOB Age ->Use check constraint Last_update Gender Department Salary -> NOT NULL 
           (1) Insert 10 rows.
