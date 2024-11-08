@@ -8,6 +8,7 @@ Assignments included:
 4. PowerBI :Capstone Project-Global Covid-19 Impact Report
 5.  MySQL  :DDL Commands
 6.  MySQL  :DDL Constraints
-7.  MySQL  :DML Commands  
+7.  MySQL  :DML Commands
+8.  MySQL  :Querying Data
 
 
