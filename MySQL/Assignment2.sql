@@ -4,12 +4,13 @@ use Sales;
 
 -- Creating table "Orders"
 create table Orders(
-Order_Id int auto_increment primary key unique,
+Order_Id int auto_increment primary key ,
 Customer_name varchar (100) not null,
 Product_Category varchar (100) not null,
 Ordered_item varchar(150) not null,
-Contact_No varchar (15) default 'Not Provided'
-);
+Contact_No varchar (15) default 'Not Provided',
+unique (Order_id)
+ );
 
 -- 1. Add a new column named “order_quantity” to the orders table.
 alter table Orders
