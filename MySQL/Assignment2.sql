@@ -4,7 +4,7 @@ use Sales;
 
 -- Creating table "Orders"
 create table Orders(
-Order_Id int auto_increment primary key,
+Order_Id int auto_increment primary key unique,
 Customer_name varchar (100) not null,
 Product_Category varchar (100) not null,
 Ordered_item varchar(150) not null,
