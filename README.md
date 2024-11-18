@@ -10,5 +10,5 @@ Assignments included:
 6.  MySQL  :DDL Constraints
 7.  MySQL  :DML Commands
 8.  MySQL  :Querying Data
-
+9.  MySQL  :Sorting and Grouping data
 
