@@ -11,4 +11,5 @@ Assignments included:
 7.  MySQL  :DML Commands
 8.  MySQL  :Querying Data
 9.  MySQL  :Sorting and Grouping data
+10. MySQL  :Joins and Union
 
