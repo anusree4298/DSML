@@ -12,4 +12,5 @@ Assignments included:
 8.  MySQL  :Querying Data
 9.  MySQL  :Sorting and Grouping data
 10. MySQL  :Joins and Union
+11. MySQL  :Functions
 
