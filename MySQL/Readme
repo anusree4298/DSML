@@ -1,5 +1,5 @@
 This folder contains MySQL works.
-Assignment 1:DDL Commands
+Assignment 1: DDL Commands
           -Create a database named School and perform all the DDL commands(CREATE, ALTER, DROP, RENAME, TRUNCATE) for the table named STUDENT with fields: Roll_No Name Marks Grade
            (1) Use the select command to display the table.
            (2) Add a column named Contact to the STUDENT table. 
@@ -26,7 +26,7 @@ Assignment 3: DML Commands
           (5) Write a query to display details of managers whose department is IT and earns more than 25000 per month. 
           (6) Write a query to display details of managers whose salary is between 10000 and 35000.
 
-Assignment 4:Querying Data
+Assignment 4: Querying Data
           -Insert 10 rows into both tables, as given below. 
           -Create a table named Country with fields: Id, Country_name, Population, Area
           -Create another table named Persons with fields: Id, Fname, Lname, Population, Rating, Country_Id, Country_name
@@ -41,7 +41,7 @@ Assignment 4:Querying Data
 	  (9)Find all countries with a population between 5 lakhs and 20 lakhs. 
 	  (10)Find all countries whose names do not start with 'C'.
 
-Assignment 5:Sorting and Grouping data
+Assignment 5: Sorting and Grouping data
 	-Insert 10 rows into both tables, as given below.
 	-Create a table named Country with fields: Id Country_name Population Area 
 	-Create another table named Persons with fields: Id Fname Lname Population Rating Country_Id Country_name
@@ -59,14 +59,14 @@ Assignment 5:Sorting and Grouping data
 	(12) Find countries in the Persons table with a total population greater than 50,000 
 	(13) List the total number of persons and average rating for each country, but only for countries with more than 2 persons, ordered by the average rating in ascending order.
 
-Assignment 6:Joins and Union
+Assignment 6: Joins and Union
 	-Consider the Country table and Persons table that you created earlier and perform the following: 
 	(1)Perform inner join, Left join, and Right join on the tables. 
 	(2)List all distinct country names from both the Country and Persons tables. 
 	(3)List all country names from both the Country and Persons tables, including duplicates. 
 	(4)Round the ratings of all persons to the nearest integer in the Persons table.
 
-Assignment 7:Functions
+Assignment 7: Functions
 	-Consider the Country table and Persons table that you created earlier and perform the following: 
 	(1) Add a new column called DOB in Persons table with data type as Date. 
 	(2) Write a user-defined function to calculate age using DOB. 
@@ -74,7 +74,7 @@ Assignment 7:Functions
 	(4) Find the length of each country name in the Country table.
 	(5) Extract the first three characters of each country's name in the Country table. 
 	(6) Convert all country names to uppercase and lowercase in the Country table.
-Assignment 8 :Subqueries and Views
+Assignment 8: Subqueries and Views
 	PART 1: Subqueries
 	-Consider the Country table and Persons table that you created earlier and perform the following: 
         (1) Find the number of persons in each country. 
@@ -82,6 +82,7 @@ Assignment 8 :Subqueries and Views
 	(3) Find out an average rating for Persons in respective countries if the average is greater than 3.0 
 	(4) Find the countries with the same rating as the USA. (Use Subqueries) 
 	(5) Select all countries whose population is greater than the average population of all nations. 
+
 	PART 2: Views
 	-Create a database named Product and create a table called Customer with the following fields in the Product database: 
 	Customer_Id - Make PRIMARY KEY,First_name,Last_name,Email,Phone_no,Address,City,State,Zip_code,Country 
@@ -93,5 +94,17 @@ Assignment 8 :Subqueries and Views
 	(6) Write a query that will return the number of customers in each state, based on the "state" column in the "customer_details" view. 
 	(7) Write a query that returns all the columns from the "customer_details" view, sorted by the "state" column in ascending order.
 
+Assignment 9: Stored Procedures
+	-Consider the Worker table with following fields: 
+	 Worker_Id INT FirstName CHAR(25), LastName CHAR(25), Salary INT(15), JoiningDate DATETIME, Department CHAR(25))
+	 (1) Create a stored procedure that takes in IN parameters for all the columns in the Worker table and adds a new record to the table and then invokes the procedure call. 
+	 (2) Write stored procedure takes in an IN parameter for WORKER_ID and an OUT parameter for SALARY.
+   	     It should retrieve the salary of the worker with the given ID and returns it in the p_salary parameter. Then make the procedure call. 
+	 (3) Create a stored procedure that takes in IN parameters for WORKER_ID and DEPARTMENT.
+   	     It should update the department of the worker with the given ID. Then make a procedure call. 
+	 (4) Write a stored procedure that takes in an IN parameter for DEPARTMENT and an OUT parameter for p_workerCount. 
+             It should retrieve the number of workers in the given department and returns it in the p_workerCount parameter. Make procedure call. 
+	 (5) Write a stored procedure that takes in an IN parameter for DEPARTMENT and an OUT parameter for p_avgSalary. 
+             It should retrieve the average salary of all workers in the given department and returns it in the p_avgSalary parameter and call the procedure
 
 
