@@ -16,4 +16,5 @@ Assignments included:
 12. MySQL  :Subqueries
 13. MySQL  :Views
 14. MySQL  :Stored Procedures
+15. MySQL  :Triggers
 
