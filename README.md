@@ -18,4 +18,6 @@ Assignments included:
 14. MySQL  :Stored Procedures
 15. MySQL  :Triggers
 16. MySQL  :Capstone Project- Library Management System
+17. Python :Python fundamentals
+18. Python :Data structures in Python
 
