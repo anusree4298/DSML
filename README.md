@@ -20,4 +20,5 @@ Assignments included:
 16. MySQL  :Capstone Project- Library Management System
 17. Python :Python fundamentals
 18. Python :Data structures in Python
+19. Python :Conditional and Looping Statements
 
