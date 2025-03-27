@@ -21,4 +21,6 @@ Assignments included:
 17. Python :Python fundamentals
 18. Python :Data structures in Python
 19. Python :Conditional and Looping Statements
+20. Python :Functions
+21. Python :OOPS
 
