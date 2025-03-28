@@ -22,5 +22,7 @@ Assignments included:
 18. Python :Data structures in Python
 19. Python :Conditional and Looping Statements
 20. Python :Functions
-21. Python :OOPS
+21. Python :File and Exception handling
+22. Python :OOPS
+23. Python :Numpy and Pandas
 
