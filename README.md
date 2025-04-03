@@ -25,4 +25,7 @@ Assignments included:
 21. Python :File and Exception handling
 22. Python :OOPS
 23. Python :Numpy and Pandas
+24. Python :Data Visualization
+25. ML     :Statistical Measures
+26. ML     :EDA and Preprocessing
 
