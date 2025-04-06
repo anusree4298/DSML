@@ -28,4 +28,5 @@ Assignments included:
 24. Python :Data Visualization
 25. ML     :Statistical Measures
 26. ML     :EDA and Preprocessing
+27. ML     :Regression
 
